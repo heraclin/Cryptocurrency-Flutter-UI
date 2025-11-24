@@ -1,49 +1,84 @@
-# 🔥🔥 Flutter Cryptocurrency app Concept [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+A Flutter implementation of a cryptocurrency portfolio management interface, based on a design concept from Uplabs.
 
-Flutter representation of a Crypto app Concept from [Uplabs](https://www.uplabs.com/posts/crypto-app-6a473389-202b-4cee-ad23-94cf46c172cd).
+## Overview
 
-Star⭐ the repo if you like what you see😉.
+This Flutter project demonstrates a clean, modern UI for tracking cryptocurrency portfolios with support for both light and dark themes.
 
-Images are from [Unsplash](https://unsplash.com)
+## Features
 
-
-<a href="ss/app.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
-
-## ✨ Requirements
-* Any Operating System (ie. MacOS X, Linux, Windows)
-* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
-* A little knowledge of Dart and Flutter
-* A brain to think 🤓🤓
+- **Dual Theme Support**: Seamlessly switch between light and dark modes
+- **Responsive Design**: Optimized for various screen sizes
+- **Portfolio Tracking**: Visual representation of cryptocurrency holdings
+- **Performance Charts**: Display asset performance over time
 
 
-## 📸 ScreenShots
+## Getting Started
 
-<img src="ss/1.png"/>
+### Prerequisites
 
-| Light| Dark|
-|------|-------|
-|<img src="ss/2.png" width="400">|<img src="ss/3.png" width="400">|
-|<img src="ss/4.png" width="400">|<img src="ss/5.png" width="400">|
+- Flutter SDK (latest stable version recommended)
+- IDE with Flutter support (Android Studio, VS Code, or IntelliJ)
+- Basic understanding of Dart and Flutter
 
+### Installation
 
-## 🌗 Toggle theme
-To toggle the theme, change the `isDark` variable in `main.dart`.
+1. Clone the repository:
+```bash
+git clone https://github.com/hearclin/cryptocurrency-flutter-ui.git
+```
 
-`true` for dark and `false` for light.
+2. Navigate to the project directory:
+```bash
+cd cryptocurrency-portfolio-ui
+```
 
+3. Install dependencies:
+```bash
+flutter pub get
+```
 
-## 🤓 Author(s)
-**Olusegun Festus Babajide**
+4. Run the application:
+```bash
+flutter run
+```
 
+## Theme Configuration
 
-## ☕️  Donate
+To switch between themes, modify the `isDark` variable in `lib/main.dart`:
 
-Buy me a cup of Coffee😁
+```dart
+bool isDark = true; // For dark theme
+bool isDark = false; // For light theme
+```
 
-| Mode | Link/Wallet|
-| ------| ------------|
-| Bitcoin | 3GrziPW6Gz6S5mXo2EsiYpafW8vXVq5Rbv|
+## Project Structure
 
+```
+lib/
+├── main.dart          # Application entry point
+├── models/            # Data models
+├── screens/           # Main application screens
+├── widgets/           # Reusable UI components
+├── theme/             # Theme configuration
+└── utils/             # Utility functions
+```
 
-## 🔖 LICENCE
-[WTFPL](http://www.wtfpl.net/about/)
+## Assets
+
+- Application icons and images located in `assets/` directory
+- Screenshots in `ss/` directory
+
+## Contributing
+
+Contributions are welcome. Please feel free to submit pull requests or open issues for discussion.
+
+## Development
+
+This project was developed using:
+- Flutter framework
+- Dart programming language
+- Material Design components
+
+## License
+
+This project is licensed under the WTFPL License. See the [LICENSE](LICENSE) file for details.

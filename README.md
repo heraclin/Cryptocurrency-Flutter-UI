@@ -80,5 +80,3 @@ This project was developed using:
 - Material Design components
 
 ## License
-
-This project is licensed under the WTFPL License. See the [LICENSE](LICENSE) file for details.

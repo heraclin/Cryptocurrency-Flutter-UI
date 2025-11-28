@@ -78,5 +78,3 @@ This project was developed using:
 - Flutter framework
 - Dart programming language
 - Material Design components
-
-## License

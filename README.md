@@ -79,3 +79,6 @@ This project was developed using:
 - Dart programming language
 - Material Design components
 
+## License
+
+This project is licensed under the WTFPL License. See the [LICENSE](LICENSE) file for details.
